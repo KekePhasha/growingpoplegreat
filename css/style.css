@@ -11,7 +11,7 @@
 
 /* Homepage */
 
-.hero {
+#homePage .hero {
     background-color: #003764;
     color: white;
 }
@@ -66,4 +66,17 @@ img {
     background-color: #003764;
     color: white;
 
+}
+
+/* PXT Select */
+
+#pxtSelect .hero {
+    text-align: center;
+    color: #003764;
+}
+
+.pxt_logo {
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
 }
