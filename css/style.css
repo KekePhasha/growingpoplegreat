@@ -16,6 +16,14 @@
     color: white;
 }
 
+.goldText {
+    color: #EC9706;
+}
+
+.blueText {
+    color: #003764;
+}
+
 img {
     height: 100%;
     width: 100%;
@@ -47,13 +55,15 @@ img {
     text-align: left;
 }
 
-.card {
-    border-radius: 25px !important;
-}
-
-.card .content {
+.content {
     color: white;
     text-align: left;
-    padding: 2%;
+    padding: 7%;
     background-color: #EC9706;
+}
+
+.footer {
+    background-color: #003764;
+    color: white;
+
 }
