@@ -80,3 +80,34 @@ img {
     width: 40%;
     object-fit: cover;
 }
+
+#pxtSelect .btnText {
+    background-color: #00AFB2;
+    color: white;
+    width: fit-content;
+    padding: 12px 24px;
+    border-radius: 24px;
+}
+
+#pxtSelect .assessment {
+    text-align: center;
+    background-color: #006581;
+
+}
+
+section {
+    padding: 5% 0;
+
+}
+
+#pxtSelect .assessment .card {
+    text-align: center;
+    border-radius: 0;
+    padding: 12px;
+}
+
+.assessment img {
+    height: 140px;
+    width: 100%;
+    object-fit: contain;
+}
