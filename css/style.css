@@ -1,5 +1,5 @@
 /* Navbar */
-
+/* #24B8BD */
 .actionBtn {
     background-color: #EC9706;
     font-size: 18;
@@ -7,6 +7,17 @@
     color: white;
     padding: 12px 24px;
     border-radius: 10px;
+}
+
+
+h1 {
+    font-size: 3.75rem;
+    font-weight: 700;
+    /* color: #003764; */
+}
+
+#shadow-host-companion {
+    display: none;
 }
 
 /* Homepage */
@@ -70,9 +81,25 @@ img {
 
 /* PXT Select */
 
+#pxtSelect .border_container {
+    /* 24B8BD */
+    border: 30px solid #24B8BD;
+    /* border-image: linear-gradient(145deg, rgba(36, 184, 189, 1) 50%, rgba(255, 255, 255, 1) 50%); */
+    /* border-image: linear-gradient(90deg, #24B8BD 0%, #003764 100%); */
+    border-image-slice: 2;
+    padding: 0;
+}
+
 #pxtSelect .hero {
     text-align: center;
     color: #003764;
+}
+
+#pxtSelect .actionBtn {
+    background-color: #24B8BD;
+    color: white;
+    /* padding: 12px 24px; */
+    border-radius: 15px;
 }
 
 .pxt_logo {
@@ -82,7 +109,7 @@ img {
 }
 
 #pxtSelect .btnText {
-    background-color: #00AFB2;
+    background-color: #24B8BD;
     color: white;
     width: fit-content;
     padding: 12px 24px;
@@ -91,7 +118,7 @@ img {
 
 #pxtSelect .assessment {
     text-align: center;
-    background-color: #006581;
+    background-color: #24B8BD;
 
 }
 
@@ -102,7 +129,7 @@ section {
 
 #pxtSelect .assessment .card {
     text-align: center;
-    border-radius: 0;
+    border-radius: 20px 20px 0 0;
     padding: 12px;
 }
 
@@ -110,4 +137,14 @@ section {
     height: 140px;
     width: 100%;
     object-fit: contain;
+}
+
+#pxtSelect .contact {
+    text-align: center;
+
+}
+
+#pxtSelect .footer {
+    background-color: #24B8BD;
+    margin: 0;
 }
