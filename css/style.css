@@ -148,3 +148,44 @@ section {
     background-color: #24B8BD;
     margin: 0;
 }
+
+.contactUsForm {
+    text-align: left;
+    padding: 5%;
+}
+
+/* Genos */
+
+#genos .hero {
+    text-align: center;
+}
+
+.heading {
+    color: white;
+    padding: 5%;
+    background-color: #EC9706;
+    width: 295px;
+}
+
+#genos .border_container {
+
+    border: 30px solid #2B292A;
+}
+
+.bulletPointCircle {
+    background-color: #2EA3F2;
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+    width: 32px;
+    text-align: center;
+
+}
+
+.bulletPoint {
+    text-align: left;
+    padding: 5%;
+    background-color: #F5F5F5;
+    margin-bottom: 2%;
+    border-radius: 20px;
+}
