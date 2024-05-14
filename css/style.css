@@ -161,15 +161,20 @@ section {
 }
 
 .heading {
+    font-size: 1.3rem;
+    font-weight: 400;
     color: white;
-    padding: 5%;
+    letter-spacing: 2px;
+    padding: 2%;
     background-color: #EC9706;
-    width: 295px;
+    /* width: 295px; */
+    border-radius: 5px;
 }
 
 #genos .border_container {
 
     border: 30px solid #2B292A;
+    padding: 0;
 }
 
 .bulletPointCircle {
@@ -188,4 +193,26 @@ section {
     background-color: #F5F5F5;
     margin-bottom: 2%;
     border-radius: 20px;
+}
+
+.program .card {
+    text-align: left;
+    border-radius: 8px;
+    color: black;
+    /* padding: 12px; */
+}
+
+li::marker {
+    color: #EC9706;
+}
+
+.program {
+    color: white;
+    background-color: #2B292A;
+    margin-top: 5%;
+}
+
+#genos .footer {
+    background-color: #2B292A;
+    color: white;
 }
