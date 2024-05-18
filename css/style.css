@@ -27,6 +27,12 @@ h1 {
     color: white;
 }
 
+.hero_profile {
+    border-radius: 50%;
+    width: auto;
+    height: 300px;
+}
+
 .goldText {
     color: #EC9706;
 }
@@ -50,12 +56,23 @@ img {
     font-size: 1.2em;
 }
 
+.services_div {
+    background-color: rgba(236, 151, 6, 0.19);
+    border-radius: 20px;
+    padding: 10%;
+}
 
-.about {
+
+.services_provide {
     margin: 5% 0;
     text-align: center;
 }
 
+.services_provide .card {
+    text-align: left;
+    padding: 25px 15px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
 
 .successes {
     margin: 5% 0;
@@ -123,7 +140,7 @@ img {
 }
 
 section {
-    padding: 5% 0;
+    /* padding: 5% 0; */
 
 }
 
