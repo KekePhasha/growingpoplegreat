@@ -152,6 +152,13 @@ section {
 .contactUsForm {
     text-align: left;
     padding: 5%;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+}
+
+.contactUsForm button {
+    font-size: 20px;
+    padding: 12px 80px !important;
 }
 
 /* Genos */
