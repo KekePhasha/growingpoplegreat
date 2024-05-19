@@ -22,15 +22,25 @@ h1 {
 
 /* Homepage */
 
+#homePage .container-fluid {
+    margin: 0;
+    padding: 0;
+    border: 15px solid #003764;
+}
+
 #homePage .hero {
+    padding-bottom: 30px;
     background-color: #003764;
     color: white;
+    /* height: 500px; */
+    vertical-align: middle;
+    margin-bottom: 50px;
 }
 
 .hero_profile {
-    border-radius: 50%;
-    width: auto;
-    height: 300px;
+    height: auto;
+    width: 100%;
+
 }
 
 .goldText {
@@ -56,22 +66,76 @@ img {
     font-size: 1.2em;
 }
 
-.services_div {
-    background-color: rgba(236, 151, 6, 0.19);
+.reviews {
+    margin: 5% 0;
+    text-align: center;
+}
+
+.reviews .content {
+    background-color: #2EA3F2;
+    color: black;
+    /* padding-right: 15%;
+    padding-left: 15%; */
+}
+
+.reviews img {
+    margin-bottom: 5%;
+    max-height: 300px;
+}
+
+.reviews .card {
+    text-align: center;
+    padding: 5%;
     border-radius: 20px;
+    margin-bottom: 3%;
+    /* margin: 0 10%; */
+}
+
+.contact {
+    text-align: center;
+}
+
+.services_div {
+    rotate: z 45deg;
+    position: absolute;
+    height: 300px;
+    top: 30%;
+    background-color: rgba(236, 151, 6, 0.19);
+    border-radius: 50px;
     padding: 10%;
 }
 
+#homePage .video {
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    top: -30px;
+    border-radius: 20px;
+}
 
 .services_provide {
     margin: 5% 0;
     text-align: center;
 }
 
+.services_provide .right_block {
+    background-color: #EC9706;
+    color: white;
+    padding: 10%;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.services_provide li::marker {
+    color: white;
+}
+
 .services_provide .card {
+    border-radius: 20px;
     text-align: left;
     padding: 25px 15px;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2%;
 }
 
 .successes {
@@ -91,6 +155,9 @@ img {
 }
 
 .footer {
+    margin-top: 3%;
+    padding-top: 15px;
+    padding: 15px 5%;
     background-color: #003764;
     color: white;
 
@@ -100,7 +167,7 @@ img {
 
 #pxtSelect .border_container {
     /* 24B8BD */
-    border: 30px solid #24B8BD;
+    border: 15px solid #24B8BD;
     /* border-image: linear-gradient(145deg, rgba(36, 184, 189, 1) 50%, rgba(255, 255, 255, 1) 50%); */
     /* border-image: linear-gradient(90deg, #24B8BD 0%, #003764 100%); */
     border-image-slice: 2;
@@ -189,7 +256,7 @@ section {
     font-weight: 400;
     color: white;
     letter-spacing: 2px;
-    padding: 2%;
+    padding: 20px 30px;
     background-color: #EC9706;
     /* width: 295px; */
     border-radius: 5px;
@@ -197,7 +264,7 @@ section {
 
 #genos .border_container {
 
-    border: 30px solid #2B292A;
+    border: 15px solid #2B292A;
     padding: 0;
 }
 
