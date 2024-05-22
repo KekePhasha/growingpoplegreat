@@ -29,12 +29,25 @@
 }
 
 h1 {
-    font-size: 3.5;
+    font-size: 3.0rem;
     font-weight: 700;
 }
 
 #shadow-host-companion {
     display: none;
+}
+
+.heading_div {
+    /* font-size: 1.0rem; */
+    font-weight: 400;
+    color: white;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    background-color: #EC9706;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    width: fit-content;
 }
 
 /* Homepage */
@@ -181,6 +194,8 @@ img {
     text-align: left;
 }
 
+
+
 .content {
     color: white;
     text-align: left;
@@ -302,6 +317,12 @@ section {
     padding: 0;
 }
 
+#genos .video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
 .bulletPointCircle {
     background-color: #2EA3F2;
     color: white;
@@ -325,6 +346,8 @@ section {
     border-radius: 8px;
     color: black;
     /* padding: 12px; */
+    margin-bottom: 2%;
+
 }
 
 li::marker {
@@ -334,7 +357,10 @@ li::marker {
 .program {
     color: white;
     background-color: #2B292A;
-    margin-top: 5%;
+    margin: 5% 0;
+
+    padding: 3% 0;
+
 }
 
 #genos .footer {
@@ -364,6 +390,12 @@ li::marker {
 }
 
 @media screen and (max-width: 768px) {
+
+    #homePage .container-fluid {
+
+        border: 8px solid #003764;
+    }
+
     #homePage .video {
 
         position: static;
@@ -388,4 +420,17 @@ li::marker {
     .margin {
         margin: 0;
     }
+
+    #genos .video {
+        height: 100%;
+        width: auto;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contactUsForm {
+        margin: 0 20%;
+    }
+
 }
