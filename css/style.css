@@ -1,5 +1,16 @@
 /* Navbar */
-/* #24B8BD */
+
+.logo {
+    height: auto;
+    width: 150px;
+    object-fit: cover;
+
+}
+
+.navbar {
+    background-color: white;
+}
+
 .actionBtn {
     background-color: #EC9706;
     font-size: 18;
@@ -9,11 +20,17 @@
     border-radius: 10px;
 }
 
+.nav-item {
+    margin: 0 5px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #1D1D1D !important;
+}
 
 h1 {
-    font-size: 3.75rem;
+    font-size: 3.5;
     font-weight: 700;
-    /* color: #003764; */
 }
 
 #shadow-host-companion {
@@ -29,18 +46,26 @@ h1 {
 }
 
 #homePage .hero {
-    padding-bottom: 30px;
+    margin-top: 115px;
+    /* padding-bottom: 30px; */
     background-color: #003764;
     color: white;
-    /* height: 500px; */
     vertical-align: middle;
     margin-bottom: 50px;
 }
 
-.hero_profile {
-    height: auto;
-    width: 100%;
+.hero .banner {
+    padding: 0 0 0 10%;
+    margin-top: -40px
+}
 
+
+
+.hero_profile {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 4/3;
 }
 
 .goldText {
@@ -72,7 +97,7 @@ img {
 }
 
 .reviews .content {
-    background-color: #2EA3F2;
+    background-color: #003764;
     color: black;
     /* padding-right: 15%;
     padding-left: 15%; */
@@ -106,20 +131,29 @@ img {
 }
 
 #homePage .video {
+
     position: absolute;
     z-index: 1;
     left: 50px;
-    top: -30px;
+    top: -50px;
     border-radius: 20px;
+    height: 320px;
 }
+
+
 
 .services_provide {
     margin: 5% 0;
     text-align: center;
 }
 
+.margin {
+    margin-right: 15px;
+}
+
 .services_provide .right_block {
     background-color: #EC9706;
+    width: 400px;
     color: white;
     padding: 10%;
     text-align: left;
@@ -306,4 +340,52 @@ li::marker {
 #genos .footer {
     background-color: #2B292A;
     color: white;
+}
+
+
+/* Media Queries */
+
+
+@media (max-width: 1200px) {
+    .hero .banner {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #homePage .video {
+        height: 100%;
+    }
+
+    .services_provide .right_block {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #homePage .video {
+
+        position: static;
+        z-index: 99;
+        left: 0;
+        top: 0;
+        height: 200px;
+
+    }
+
+    .services_div {
+        margin: 50px;
+        rotate: z 45deg;
+        position: static;
+        height: 200px;
+        top: 0%;
+        background-color: rgba(236, 151, 6, 0.19);
+        border-radius: 50px;
+        padding: 10%;
+    }
+
+    .margin {
+        margin: 0;
+    }
 }
