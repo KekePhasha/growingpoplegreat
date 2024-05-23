@@ -37,8 +37,11 @@ h1 {
     display: none;
 }
 
+a {
+    color: #EC9706;
+}
+
 .heading_div {
-    /* font-size: 1.0rem; */
     font-weight: 400;
     color: white;
     letter-spacing: 1px;
@@ -48,6 +51,10 @@ h1 {
     text-align: center;
     margin: auto;
     width: fit-content;
+}
+
+.heading_div h4 {
+    margin: 0;
 }
 
 /* Homepage */
@@ -133,6 +140,13 @@ img {
     text-align: center;
 }
 
+.client {
+    font-weight: 200;
+    margin: 5% 0;
+    text-align: center;
+
+}
+
 .services_div {
     rotate: z 45deg;
     position: absolute;
@@ -166,7 +180,7 @@ img {
 
 .services_provide .right_block {
     background-color: #EC9706;
-    width: 400px;
+    width: fit-content;
     color: white;
     padding: 10%;
     text-align: left;
@@ -205,8 +219,7 @@ img {
 
 .footer {
     margin-top: 3%;
-    padding-top: 15px;
-    padding: 15px 5%;
+    padding: 5% 5% 2% 5%;
     background-color: #003764;
     color: white;
 
@@ -252,11 +265,6 @@ img {
 #pxtSelect .assessment {
     text-align: center;
     background-color: #24B8BD;
-
-}
-
-section {
-    /* padding: 5% 0; */
 
 }
 
@@ -368,6 +376,78 @@ li::marker {
     color: white;
 }
 
+/* Everything Disc */
+
+#everything_disc .container-fluid {
+    margin: 0;
+    padding: 0;
+    border: 15px solid #0094D0;
+}
+
+#everything_disc .hero {
+    text-align: center;
+}
+
+#everything_disc .video {
+
+    height: 350px;
+    width: 100%;
+
+}
+
+#everything_disc .footer {
+    background-color: #0094D0;
+    color: white;
+}
+
+#everything_disc .service {
+    margin-top: 5%;
+    background-color: #0094D0;
+    padding: 5% 0;
+}
+
+#everything_disc .service .card {
+    text-align: center;
+}
+
+#everything_disc .needs {
+    margin: 5% 0;
+    text-align: center;
+    justify-content: center;
+}
+
+#everything_disc .needs img {
+    height: 50px;
+    width: auto;
+    object-fit: cover;
+}
+
+#everything_disc .success_stories {
+    padding: 0 5%;
+    margin: 5% 0;
+    text-align: left;
+}
+
+#everything_disc .success_stories .boldText {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+#everything_disc .success_stories img {
+    border-radius: 30px 0 0 30px;
+}
+
+#everything_disc .success_stories .card {
+    border: none;
+}
+
+#everything_disc .success_stories .right_block {
+    background-color: #EC9706;
+    color: white;
+    padding: 5%;
+    border-radius: 0 30px 30px 0;
+
+}
 
 /* Media Queries */
 
@@ -381,10 +461,6 @@ li::marker {
 @media screen and (max-width: 992px) {
     #homePage .video {
         height: 100%;
-    }
-
-    .services_provide .right_block {
-        width: 100%;
     }
 
 }
